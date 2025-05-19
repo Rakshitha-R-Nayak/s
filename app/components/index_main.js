@@ -130,7 +130,8 @@ export default function Main() {
         */}
 
 <section className={styles.wedding}>WEDDING<br/>
-07-11-2025</section>
+05-06-2025</section>
+<br/>
 {/*}
         <section className={styles.additionalGallery}>
         <Swiper
