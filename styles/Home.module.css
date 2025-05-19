@@ -1,0 +1,277 @@
+.body {
+    font-family: 'thohoma', sans-serif;
+    background-image: url('/media/photo8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ce4848;
+  }
+  
+  .header {
+    transition: none !important;
+    background-color: #ecb4ec;
+    padding: 50px 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    text-shadow: 2px 2px 10px rgba(200, 15, 184, 0.6);
+  
+    
+    
+  }
+  
+  
+  .h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  .nam{
+    font-family: 'Billion Dreams', cursive;
+  font-size: 29px;
+  color: #e30d63; /* gold */
+  text-shadow: 2px 2px 10px rgba(236, 162, 13, 0.733);
+  }
+  
+  .h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  
+  .h3 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+  .p {
+    font-size: 18px;
+  }
+  
+  .footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f8e1e7;
+  }
+  
+  .gallery {
+    margin-top: 40px;
+  }
+  
+  .photoContainer {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+  }
+  
+  .photoSlide img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    object-fit:contain;
+  }
+  
+  .additionalGallery {
+    text-align: center;
+    margin-top: 60px;
+    padding: 0px;
+    background: none !important;
+   /* background-color: #f9f9f9;
+    background: cover; /* optional */
+  }
+  
+  .additionalGallery img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;     /* Adjust this as needed */
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px; /* optional */
+  }
+  
+  
+  .additionalGallery h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    
+  }
+  
+  .swiper {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 16px;
+    object-fit: contain;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .swiper-slide img {
+    width: auto;
+    height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .venue {
+    margin-top: 40px;
+  }
+  
+  .locationButton {
+    background-color: #ff7f50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .locationButton:hover {
+    background-color: #ff5722;
+  }
+  
+  .videoSection {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .textBlock {
+    margin-bottom: 20px;
+  }
+  
+  .videoBlock {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  
+  
+  .rsvp {
+    margin-top: 40px;
+  }
+  
+  .musicPlayer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Gallery Section */
+.photoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* space between images */
+}
+
+.photoSlide {
+  width: 300px; /* Set fixed width for consistency */
+  height: 350px; /* Set fixed height for consistency */
+  overflow: hidden; /* Hide overflow */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.photoSlide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  object-position: center; /* Center the image */
+}
+
+
+
+
+.swiperSangeeth {
+  width: 90%;
+  max-width: 500px;
+  aspect-ratio: 4 / 3; /* or match your typical image ratio */
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cce9f1; /* subtle bg to hide gaps */
+}
+
+.swiperSangeeth img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+
+.wed{
+  font-family: 'Lovely Home';
+  font-size: 25px;
+  color: #d30d56; /* gold */
+  text-shadow: 2px 2px 10px rgba(94, 9, 79, 0.81);
+}
+
+.function{
+  font-family: 'Billion Dreams', cursive;
+  font-size: 2.3rem;
+  color: #f10c9d; /* gold */
+  text-shadow: 2px 2px 10px rgba(174, 13, 188, 0.6);
+}
+.sangeeth {
+  font-family: 'Billion Dreams', cursive;
+  font-size: 1.5rem;
+  color: #e40c8e; /* gold */
+  text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.6);
+}
+.sangtext {
+  font-family: 'Billion Dreams', cursive;
+  font-size: 1.5rem;
+  color: #d31979; /* gold */
+  text-shadow: 2px 2px 10px rgba(189, 5, 155, 0.6);
+}
+
+.wedding{
+
+  font-family: 'Pacifico', cursive;
+  font-size: 2.2rem;
+  color: #e70965; /* gold */
+  text-shadow: 2px 2px 10px rgba(226, 15, 222, 0.57);
+}
+
+
+.weddingt{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  color: #e70965; /* gold */
+  text-shadow: 2px 2px 10px rgba(226, 15, 222, 0.57);
+}
+.cel{
+  font-family: 'Franklin Gothic Medium';
+}
+
