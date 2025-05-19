@@ -35,7 +35,7 @@ export default function Main() {
         animate={{ scale: 1 }}
         transition={{ duration: 1.2, delay: 0.5 }}
       >
-        SACHIN & VIBHA
+        PHALGUNI & ANEESH
       </motion.h2>
 
       <motion.p
@@ -60,7 +60,7 @@ export default function Main() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 2 }}
       >
-        Join us on 07-11-2025
+        Join us on 05-06-2025
       </motion.p>
     </div>
         </header>
@@ -69,16 +69,16 @@ export default function Main() {
           
           <div className={styles.photoContainer}>
             <div className={styles.photoSlide}>
-              <img src="/media/groom.jpg" alt="groom" />
+              <img src="/media/groom2.jpg" alt="groom" />
             </div>
             <div className={styles.photoSlide}>
-              <img src="/media/bride1.jpg" alt="bride" />
+              <img src="/media/bride3.jpg" alt="bride" />
             </div>
           </div>
         </section>
 
         
-        <h3 className={styles.wed}>SACHIN WEDS VIBHA</h3>
+        <h3 className={styles.wed}> PHALGUNI WEDS ANEESH</h3>
         <section className={styles.additionalGallery}>
           <Swiper
             modules={[Autoplay, Pagination]}
@@ -87,26 +87,25 @@ export default function Main() {
             pagination={{ clickable: true }}
             className={styles.swiper}
           >
-            <SwiperSlide><img src="/media/add1.jpg" alt="Additional 1" /></SwiperSlide>
-            <SwiperSlide><img src="/media/add6.jpg" alt="Additional 2" /></SwiperSlide>
-            <SwiperSlide><img src="/media/add3.jpg" alt="Additional 1" /></SwiperSlide>
+            <SwiperSlide><img src="/media/p1.jpg" alt="Additional 1" /></SwiperSlide>
+            <SwiperSlide><img src="/media/p2.jpg" alt="Additional 2" /></SwiperSlide>
+            <SwiperSlide><img src="/media/p3.jpg" alt="Additional 1" /></SwiperSlide>
            
-            <SwiperSlide><img src="/media/add2.jpg" alt="Additional 1" /></SwiperSlide>
-            <SwiperSlide><img src="/media/add5.jpg" alt="Additional 2" /></SwiperSlide>
+           
           </Swiper>
         </section>
         <br/>
         <br/>
         <br/>
 
-<h2 className={styles.function}>FUNCTIONS</h2>
+{/*<h2 className={styles.function}>FUNCTIONS</h2>*/}
         <section className={styles.venue}>
        
-
+{/*
 <h2 className={styles.sangtext}>SANGEETH<br/>
 02-11-2025</h2>
 
-          <section className={styles.Sangeetgallery}>
+         <section className={styles.Sangeetgallery}>
           
           <Swiper
             modules={[Autoplay, Pagination]}
@@ -128,11 +127,11 @@ export default function Main() {
           </a>
           </h2>
         </section>
-<br/>
-<br/>
-<br/>
+        */}
+
 <section className={styles.wedding}>WEDDING<br/>
 07-11-2025</section>
+{/*}
         <section className={styles.additionalGallery}>
         <Swiper
             modules={[Autoplay, Pagination]}
@@ -148,15 +147,17 @@ export default function Main() {
 
             </Swiper>
 </section>
-
+*/}
          
          <section className={styles.weddingt}>
            <p> Wedding Venue</p>
-          <p>NARAYANAGURU AUDITORIUM, BANNANJE, UDUPI</p>
+          <p>Shivalli Smartha Bhavana</p>
+          <p>Manganahalli Rd, Sir M Vishweshwaraiah Layout, </p>
+            <p>Bengaluru, Karnataka</p>
           
           </section>
           <a
-  href="https://www.google.com/maps/place/Narayanaguru+Auditorium,+Udupi/@13.3456821,74.7361433,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbcbb794f8c3edd:0x6abdfc29f11180dd!8m2!3d13.3456821!4d74.7387182!16s%2Fg%2F11c2pmtqw7?entry=ttu"
+  href="https://www.google.com/maps/place/Shivalli+Smartha+Bhavana/@12.9460037,77.4720684,17z/data=!4m6!3m5!1s0x3bae3934cb673acf:0xbb2c3e75ce13ed9!8m2!3d12.9460037!4d77.4720684!16s%2Fg%2F11cjtn5f0m?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
   target="_blank"
   rel="noopener noreferrer"
 >
@@ -187,3 +188,7 @@ export default function Main() {
     </>
   );
 }
+
+
+
+

@@ -86,8 +86,8 @@
   .additionalGallery img {
     display: block;
     margin: 0 auto;
-    width: 300px;     /* Adjust this as needed */
-    height: auto;
+    width:350px;     /* Adjust this as needed */
+    height: 500px; /* Adjust this as needed */
     max-width: 100%;
     border-radius: 8px; /* optional */
   }
