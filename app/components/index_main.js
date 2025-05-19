@@ -69,10 +69,10 @@ export default function Main() {
           
           <div className={styles.photoContainer}>
             <div className={styles.photoSlide}>
-              <img src="/media/groom2.jpg" alt="groom" />
+              <img src="/media/bride3.jpg" alt="groom" />
             </div>
             <div className={styles.photoSlide}>
-              <img src="/media/bride3.jpg" alt="bride" />
+              <img src="/media/groom2.jpg" alt="bride" />
             </div>
           </div>
         </section>
