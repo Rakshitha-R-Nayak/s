@@ -87,7 +87,7 @@ export default function Main() {
             pagination={{ clickable: true }}
             className={styles.swiper}
           >
-            <SwiperSlide><img src="/media/p1.jpg" alt="Additional 1" /></SwiperSlide>
+            <SwiperSlide><img src="/media/p4.jpg" alt="Additional 1" /></SwiperSlide>
             <SwiperSlide><img src="/media/p2.jpg" alt="Additional 2" /></SwiperSlide>
             <SwiperSlide><img src="/media/p3.jpg" alt="Additional 1" /></SwiperSlide>
            
